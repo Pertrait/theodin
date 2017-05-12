@@ -1,0 +1,118 @@
+body {
+	font-family: arial;
+	margin: 0;
+	height: 100%;
+}
+
+#apps, #not, #profile	 {
+	width: 20px;
+	height 10px;
+	border-radius: 50%;
+
+}
+
+
+
+.topnav {
+	list-style-type: none;
+	font-size: 15px;
+	text-align: right;
+	padding: 5px 15px 0 0;
+
+}
+
+
+#gmail, #images {
+	padding: 5px 5px 20px 5px ;
+	text-decoration: none;
+	
+}
+
+
+#gmail:hover, #images:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+	
+}
+
+#logo {
+border-radius: 50%;
+width: 300px;
+height: 130px;
+margin: auto;
+display: block;
+position: absolute;
+top: 25%;
+left: 30%;
+
+}
+
+#search {
+width: 400px;
+height: 10px;
+padding: 10px;
+position: absolute;
+top: 50%;
+left: 20%;
+}
+
+
+.button1 {
+	position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+
+
+
+.button2 {
+	position: absolute;
+    top: 60%;
+    left: 30%;
+  }
+
+
+
+#settings, #terms, #privacy, #Advertising, #Business, #About
+
+ {
+	padding: 5px 5px 20px 5px ;
+	text-decoration: none;
+	
+}
+
+
+#settings:hover, #terms:hover, #privacy:hover, #Advertising:hover, #Business:hover, #About:hover
+ {
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+	
+}
+
+
+
+
+#lr {
+		position: absolute;
+	list-style-type: none;
+	font-size: 15px;
+	text-align: right;
+	 top: 90%;
+    right: 1%;
+}
+
+
+#ll {
+	list-style-type: none;
+		position: absolute;
+	font-size: 15px;
+	text-align: right;
+	 top: 90%;
+    left: 1%;
+}
+
+.footer {
+background-color: black;
+}
