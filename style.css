@@ -42,9 +42,7 @@ width: 300px;
 height: 130px;
 margin: auto;
 display: block;
-position: absolute;
-top: 25%;
-left: 30%;
+position: relative;
 
 }
 
@@ -52,24 +50,24 @@ left: 30%;
 width: 400px;
 height: 10px;
 padding: 10px;
-position: absolute;
-top: 50%;
-left: 20%;
+position: relative;
+left: 8em;
 }
 
 
 .button1 {
-	position: absolute;
-    top: 60%;
-    left: 50%;
+	position: relative;
+	top: 4em;
+	right: 5em;
+
   }
 
 
 
 .button2 {
-	position: absolute;
-    top: 60%;
-    left: 30%;
+	position: relative;
+    top: 4em;
+    left: -25em;
   }
 
 
@@ -95,24 +93,21 @@ left: 20%;
 
 
 #lr {
-		position: absolute;
-	list-style-type: none;
+		position: relative;
 	font-size: 15px;
 	text-align: right;
-	 top: 90%;
-    right: 1%;
+	top: 20em;
 }
 
 
 #ll {
-	list-style-type: none;
-		position: absolute;
+		position: relative;
 	font-size: 15px;
-	text-align: right;
-	 top: 90%;
-    left: 1%;
+	text-align: left;
+	top: 18em;
+	
 }
 
 .footer {
-background-color: black;
+background-color: none;
 }
